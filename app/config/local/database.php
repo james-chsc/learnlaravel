@@ -20,9 +20,11 @@ return array(
 
 	'connections' => array(
 
+        'default' => 'sqlite',
+
         'sqlite' => array(
             'driver'   => 'sqlite',
-            'database' => __DIR__.'/../database/production.sqlite',
+            'database' => __DIR__.'/../../database/production.sqlite',
             'prefix'   => '',
         ),
 

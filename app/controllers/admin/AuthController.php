@@ -2,7 +2,7 @@
 
 namespace App\Controllers\Admin;
 
-use \Auth, \BaseController, \Form, \Input, \Redirect, \Sentry, \View;
+use Auth, BaseController, Form, Input, Redirect, Sentry, View;
 
 class AuthController extends BaseController {
 

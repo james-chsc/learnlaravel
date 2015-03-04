@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder {
 
 		$this->call('ArticleTableSeeder');
 		$this->call('PageTableSeeder');
-
+        $this->call('SentrySeeder');
 	}
 
 }
