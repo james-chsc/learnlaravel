@@ -26,7 +26,7 @@
             </div>
 
             <div class="form-actions">
-                {{ Form::submit('login', array('class' => 'btn btn-inverse btn-login')) }}
+                {{ Form::submit('login', ['class' => 'btn btn-inverse btn-login']) }}
             </div>
 
         {{ Form::close() }}

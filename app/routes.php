@@ -27,5 +27,5 @@ Route::group([
 {
     Route::any('/', 'App\Controllers\Admin\PageController@index');
     Route::resource('articles', 'App\Controllers\Admin\ArticlesController');
-    Route::resource('pages', 'App\Controllers\Admin\PagesController');
+    Route::resource('pages', 'App\Controllers\Admin\PageController');
 });
